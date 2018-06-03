@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/blogs
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5pa28iLCJpZCI6IjViMTNiZGQwNWQ4N2M2MTA2ODVlNzAzMyIsImlhdCI6MTUyODAyMjAwMH0.z45L0eXl2syh1ERTuf4gXzg1nfYgvHmpA9wseAqFmII
+
+{
+    "title": "TOKEN TOKEN TOKEN 123",
+    "author": "Niko Mäkinen",
+    "url": "http://blog.com/blog1",
+    "likes": 5,
+    "userId": "5b13bdd05d87c610685e7033"
+}
